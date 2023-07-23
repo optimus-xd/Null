@@ -31,7 +31,9 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "180"))
 # Remember to give value in Minutes
 
 # Duration Limit for downloading Songs in MP3 or MP4 format from bot
-SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
+SONG_DOWNLOAD_DURATION = int(
+    getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
+)
 
 # Remember to give value in Minutes
 
